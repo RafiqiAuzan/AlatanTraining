@@ -4,10 +4,10 @@
             <img src="img/logo/logo_alatan_biru.svg" class="h-14">
         </a>
         <div class="flex md:order-2 gap-36">
-            <div class="my-auto">
+            {{-- <div class="my-auto">
                 <a href="#" class=" text-[#19A7CE] text-lg font-semibold">Alatan Skillup
                 </a>
-                </div>
+                </div> --}}
             <div class="my-auto">
             <button type="button"
                 class="text-[#001C30] border-2 border-[#001C30] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1 text-center">
