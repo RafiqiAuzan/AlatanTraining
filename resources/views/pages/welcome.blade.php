@@ -4,12 +4,12 @@
 <Section>
     <div id="hero" class=" bg-[#F3F3F3]">
         <div class="container mx-auto">
-            <div class="flex xl:p-40 2xl:px-72 justify-between">
+            <div class="flex xl:p-40 2xl:px-72 2xl:pb-32 justify-between">
                 <!-- Left -->
                 <div class="max-w-[500px] my-auto">
-                    <h1 class="text-6xl leading-none font-bold">Alatan Academy</h1>
+                    <h1 class="text-6xl leading-none font-bold text-[#001C30]">Alatan Academy</h1>
                     <br>
-                    <p class=" text-lg text-[#52616B] leading-normal">Alatan Training memberikan program pengembangan
+                    <p class="stext-base text-[#52616B] leading-normal">Alatan Training memberikan program pengembangan
                         Sumber Daya Manusia dengan didukung oleh para tenaga pengajar (trainer) berpengalaman.</p>
                     <div class="flex gap-5 my-5">
                         <button
@@ -33,25 +33,25 @@
 
 {{-- Benefit --}}
 <Section>
-    <div class="bg-[#F7F6F2] px-12">
+    <div class="bg-[#F3F3F3] px-12 pb-12">
         <div class="bg-[#3652AD] container mx-auto rounded">
             <div class="grid grid-cols-3 p-10">
                 <div class="text-center">
-                    <img src="img/icon/diamond_head.png" class="bg-[#F7F6F2] rounded-lg p-2 mx-auto" />
-                    <h1 class="text-xl text-[#F7F6F2] py-4">Learn New Skills</h1>
-                    <p class="text-[#F7F6F2] px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
+                    <img src="img/icon/benefit1.svg" class="bg-[#FAFAFA] rounded-lg p-1 size-16 mx-auto" />
+                    <h1 class="text-xl font-semibold text-[#FAFAFA] py-4">Learn New Skills</h1>
+                    <p class="text-[#FAFAFA] text-base px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
                         es un myth.</p>
                 </div>
                 <div class="text-center">
-                    <img src="img/icon/diamond_head.png" class="bg-[#F7F6F2] rounded-lg p-2 mx-auto" />
-                    <h1 class="text-xl text-[#F7F6F2] py-4">Learn New Skills</h1>
-                    <p class="text-[#F7F6F2] px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
+                    <img src="img/icon/benefit2.svg" class="bg-[#FAFAFA] rounded-lg p-2 size-16 mx-auto" />
+                    <h1 class="text-xl font-semibold text-[#FAFAFA] py-4">Career Opportunities</h1>
+                    <p class="text-[#FAFAFA] text-base px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
                         es un myth.</p>
                 </div>
                 <div class="text-center">
-                    <img src="img/icon/diamond_head.png" class="bg-[#F7F6F2] rounded-lg p-2 mx-auto" />
-                    <h1 class="text-xl text-[#F7F6F2] py-4">Learn New Skills</h1>
-                    <p class="text-[#F7F6F2] px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
+                    <img src="img/icon/benefit3.svg" class="bg-[#FAFAFA] rounded-lg p-2 size-16 mx-auto" />
+                    <h1 class="text-xl font-semibold text-[#FAFAFA] py-4">Getting a Certificate</h1>
+                    <p class="text-[#FAFAFA] text-base px-8">Li Europan lingues es membres del sam familie. Lor separat existentie
                         es un myth.</p>
                 </div>
             </div>
