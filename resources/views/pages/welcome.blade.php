@@ -59,64 +59,77 @@
     </div>
 </Section>
 
-    <div class="bg-[#EEEEEE] p-12">
+{{-- Product --}}
+<section>
+    <div class="bg-[#EEEEEE] px-12 py-6">
         <div class="container mx-auto">
-            <h1 class="text-center text-2xl font-bold mb-5">Our Public Training Program</h1>
+            <h1 class="text-center text-4xl font-bold text-[#001C30] mb-6">Our Public Training Program</h1>
             <div class="grid gap-10 grid-cols-3 rounded-xl">
+                {{-- Card --}}
                 <div class="bg-[#F7F7F7] rounded-2xl">
                     <img src="dummy_img/ft1.png" class="rounded-t-2xl w-full object-cover" />
                     <div class="p-5">
-                        <h1 class="text-xl mb-2 font-bold">Learn Figma Essential UI/
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
-                        <div class="flex justify-between">
-                            <p>10 Lesson</p>
-                            <p>5.0</p>
+                        <div class="flex gap-1">
+                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-black opacity-50 my-3" />
+                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
-                            <p>Rp. 299.000</p>
-                            <button class="bg-[#3652AD] text-[#FAFAFA] p-2 rounded-lg border text-xs">Lihat
-                                Detail</button>
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                            </div>
                         </div>
                     </div>
                 </div>
+                {{-- Card --}}
                 <div class="bg-[#F7F7F7] rounded-2xl">
                     <img src="dummy_img/ft2.png" class="rounded-t-2xl w-full object-cover" />
                     <div class="p-5">
-                        <h1 class="text-xl mb-2 font-bold">Learn Figma Essential UI/
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
-                        <div class="flex justify-between">
-                            <p>10 Lesson</p>
-                            <p>5.0</p>
+                        <div class="flex gap-1">
+                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-black opacity-50 my-3" />
+                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
-                            <p>Rp. 299.000</p>
-                            <button class="bg-[#3652AD] text-[#FAFAFA] p-2 rounded-lg border text-xs">Lihat
-                                Detail</button>
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                            </div>
                         </div>
                     </div>
                 </div>
+                {{-- Card --}}
                 <div class="bg-[#F7F7F7] rounded-2xl">
                     <img src="dummy_img/ft3.png" class="rounded-t-2xl w-full object-cover" />
                     <div class="p-5">
-                        <h1 class="text-xl mb-2 font-bold">Learn Figma Essential UI/
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
-                        <div class="flex justify-between">
-                            <p>10 Lesson</p>
-                            <p>5.0</p>
+                        <div class="flex gap-1">
+                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-black opacity-50 my-3" />
+                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
-                            <p>Rp. 299.000</p>
-                            <button class="bg-[#3652AD] text-[#FAFAFA] p-2 rounded-lg border text-xs">Lihat
-                                Detail</button>
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
 
     <div class="bg-[#F3F3F3] p-12">
         <div class="container mx-auto">
