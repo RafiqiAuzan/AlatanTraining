@@ -1,6 +1,6 @@
 <nav class="fixed w-full bg-[#F3F3F3] backdrop-blur bg-opacity-60 border-b-2 border-[#1E2022]/60">
     <div class="container mx-auto flex justify-between lg:px-12">
-        <a href="#" class="">
+        <a href="/" class="">
             <img src="img/logo/logo_alatan_biru.svg" class="h-14">
         </a>
         <div class="flex md:order-2 gap-36">
@@ -36,7 +36,7 @@
                         aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/publictraining"
                         class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Public
                         Training</a>
                 </li>

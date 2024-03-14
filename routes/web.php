@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.welcome');
 });
+
+Route::get('/publictraining', function () {
+    return view('pages.alatanacademy.publictraining');
+});
+
+Route::get('/productdetail', function () {
+    return view('pages.alatanacademy.productdetail');
+});
