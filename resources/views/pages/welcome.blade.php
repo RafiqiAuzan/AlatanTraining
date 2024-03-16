@@ -130,12 +130,13 @@
     </div>
 </section>
 
-
+{{-- Testimoni --}}
     <div class="bg-[#F3F3F3] p-12">
         <div class="container mx-auto">
             <h1 class="text-2xl font-bold mb-1">Testimonials</h1>
             <p class=" text-base mb-5 max-w-[650px]">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
                 scientie, musica, sport etc.</p>
+            {{-- feedback card --}}
             <div class="grid gap-10 grid-cols-4 rounded-xl">
                 <div class="bg-[#F7F7F7] rounded-2xl">
                     <div class=" flex p-5 gap-5">
