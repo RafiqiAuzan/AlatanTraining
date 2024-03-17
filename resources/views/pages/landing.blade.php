@@ -78,8 +78,8 @@
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
                                 <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
                             </div>
                         </div>
@@ -98,8 +98,8 @@
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
                                 <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
                                 <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
                             </div>
                         </div>
