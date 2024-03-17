@@ -1,4 +1,4 @@
-<x-layouts.base title="Memorials Studio">
+<x-layouts.base title="Alatan Indonesia">
 
 {{-- Hero --}}
 <Section>

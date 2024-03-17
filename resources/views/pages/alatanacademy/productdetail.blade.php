@@ -368,7 +368,7 @@
     </div>
 </section>
 
-{{-- Product --}}
+{{-- FAQ --}}
 <section>
     <div class="bg-[#EEEEEE] px-12 py-6">
         <div class="container mx-auto">
