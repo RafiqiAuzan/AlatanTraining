@@ -1,6 +1,6 @@
 <x-layouts.base>
 
-{{-- Benefit --}}
+{{-- Promo Card --}}
 <Section>
     <div class="bg-[#F3F3F3] pt-14">
         <div class="bg-[#3652AD] container mx-auto">

@@ -18,7 +18,7 @@
                         </button>
                         <div class="flex border-b-2 border-[#3652AD] ">
                             <a class="text-[#3652AD] p-2 font-semibold text-base" href="">Lihat Jadwal</a>
-                            <img class="h-5 my-auto" src="{{ URL::to('/img/icon/arrow-forward.svg') }}">
+                            <i class="my-auto text-[#3652AD] fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
                         <div class="flex gap-1">
-                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
@@ -80,7 +80,7 @@
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
                             <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
-                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                         <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
                         <div class="flex gap-1">
-                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
@@ -100,7 +100,7 @@
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
                             <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
-                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                         <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
                         <div class="flex gap-1">
-                            <img src="img/icon/date.svg" class="rounded-t-2xl" />
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
                         <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
@@ -120,7 +120,7 @@
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
                             <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
-                                <img class="my-auto" src="{{ URL::to('/img/icon/arrow-forward2.svg') }}">
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </div>
                         </div>
                     </div>
@@ -131,116 +131,116 @@
 </section>
 
 {{-- Testimoni --}}
-    <div class="bg-[#F3F3F3] p-12">
-        <div class="container mx-auto">
-            <h1 class="text-2xl font-bold mb-1">Testimonials</h1>
-            <p class=" text-base mb-5 max-w-[650px]">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
-                scientie, musica, sport etc.</p>
-            {{-- feedback card --}}
-            <div class="grid gap-10 grid-cols-4 rounded-xl">
-                <div class="bg-[#F7F7F7] rounded-2xl">
-                    <div class=" flex p-5 gap-5">
-                        <img src="dummy_img/profile/profil1.svg" class="rounded-full" />
-                        <div class="">
-                            <p class=" text-lg font-semibold">Richman Arees</p>
-                            <p class="text-base text-[#3652AD]">Company name</p>
-                        </div>
-                    </div>
-                    <div class="mx-5">
-                        <p>“Li Europan lingues es membres
-                            del sam familie. Lor separat
-                            existentie es un myth. Por
-                            scientie, musica, sport etc.”</p>
-                        <div class="flex mt-3 gap-1">
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                        </div>
+<div class="bg-[#F3F3F3] p-12">
+    <div class="container mx-auto">
+        <h1 class="text-2xl font-bold mb-1">Testimonials</h1>
+        <p class=" text-base mb-5 max-w-[650px]">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
+            scientie, musica, sport etc.</p>
+        {{-- feedback card --}}
+        <div class="grid gap-10 grid-cols-4 rounded-xl">
+            <div class="bg-[#F7F7F7] rounded-2xl">
+                <div class=" flex p-5 gap-5">
+                    <img src="dummy_img/profile/profil1.svg" class="rounded-full" />
+                    <div class="">
+                        <p class=" text-lg font-semibold">Richman Arees</p>
+                        <p class="text-base text-[#3652AD]">Company name</p>
                     </div>
                 </div>
-                <div class="bg-[#F7F7F7] rounded-2xl">
-                    <div class=" flex p-5 gap-5">
-                        <img src="dummy_img/profile/profil2.svg" class="rounded-full" />
-                        <div class="">
-                            <p class=" text-lg font-semibold">Mary Jane</p>
-                            <p class="text-base text-[#3652AD]">Company name</p>
-                        </div>
-                    </div>
-                    <div class="mx-5">
-                        <p>“Li Europan lingues es membres
-                            del sam familie. Lor separat
-                            existentie es un myth. Por
-                            scientie, musica, sport etc.”</p>
-                        <div class="flex mt-3 gap-1">
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                        </div>
-                    </div>
-                </div><div class="bg-[#F7F7F7] rounded-2xl">
-                    <div class=" flex p-5 gap-5">
-                        <img src="dummy_img/profile/profil3.svg" class="rounded-full" />
-                        <div class="">
-                            <p class=" text-lg font-semibold">Gwen Stacy</p>
-                            <p class="text-base text-[#3652AD]">Company name</p>
-                        </div>
-                    </div>
-                    <div class="mx-5">
-                        <p>“Li Europan lingues es membres
-                            del sam familie. Lor separat
-                            existentie es un myth. Por
-                            scientie, musica, sport etc.”</p>
-                        <div class="flex mt-3 gap-1">
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                        </div>
-                    </div>
-                </div><div class="bg-[#F7F7F7] rounded-2xl">
-                    <div class=" flex p-5 gap-5">
-                        <img src="dummy_img/profile/profil4.svg" class="rounded-full" />
-                        <div class="">
-                            <p class=" text-lg font-semibold">Emma Watson</p>
-                            <p class="text-base text-[#3652AD]">Company name</p>
-                        </div>
-                    </div>
-                    <div class="mx-5 mb-5">
-                        <p>“Li Europan lingues es membres
-                            del sam familie. Lor separat
-                            existentie es un myth. Por
-                            scientie, musica, sport etc.”</p>
-                        <div class="flex mt-3 gap-1">
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                            <img src="img/icon/star.svg" class=""/>
-                        </div>
+                <div class="mx-5">
+                    <p>“Li Europan lingues es membres
+                        del sam familie. Lor separat
+                        existentie es un myth. Por
+                        scientie, musica, sport etc.”</p>
+                    <div class="flex mt-3 gap-1">
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center mt-5 gap-2">
-                <div class="w-3 h-3 bg-[#3652AD] rounded-full"></div>
-                <div class="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
-                <div class="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+            <div class="bg-[#F7F7F7] rounded-2xl">
+                <div class=" flex p-5 gap-5">
+                    <img src="dummy_img/profile/profil2.svg" class="rounded-full" />
+                    <div class="">
+                        <p class=" text-lg font-semibold">Mary Jane</p>
+                        <p class="text-base text-[#3652AD]">Company name</p>
+                    </div>
+                </div>
+                <div class="mx-5">
+                    <p>“Li Europan lingues es membres
+                        del sam familie. Lor separat
+                        existentie es un myth. Por
+                        scientie, musica, sport etc.”</p>
+                    <div class="flex mt-3 gap-1">
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                    </div>
+                </div>
+            </div><div class="bg-[#F7F7F7] rounded-2xl">
+                <div class=" flex p-5 gap-5">
+                    <img src="dummy_img/profile/profil3.svg" class="rounded-full" />
+                    <div class="">
+                        <p class=" text-lg font-semibold">Gwen Stacy</p>
+                        <p class="text-base text-[#3652AD]">Company name</p>
+                    </div>
+                </div>
+                <div class="mx-5">
+                    <p>“Li Europan lingues es membres
+                        del sam familie. Lor separat
+                        existentie es un myth. Por
+                        scientie, musica, sport etc.”</p>
+                    <div class="flex mt-3 gap-1">
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                    </div>
+                </div>
+            </div><div class="bg-[#F7F7F7] rounded-2xl">
+                <div class=" flex p-5 gap-5">
+                    <img src="dummy_img/profile/profil4.svg" class="rounded-full" />
+                    <div class="">
+                        <p class=" text-lg font-semibold">Emma Watson</p>
+                        <p class="text-base text-[#3652AD]">Company name</p>
+                    </div>
+                </div>
+                <div class="mx-5 mb-5">
+                    <p>“Li Europan lingues es membres
+                        del sam familie. Lor separat
+                        existentie es un myth. Por
+                        scientie, musica, sport etc.”</p>
+                    <div class="flex mt-3 gap-1">
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                        <i class="fa-solid fa-star text-[#FFD541]"></i>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="flex justify-center mt-5 gap-2">
+            <div class="w-3 h-3 bg-[#3652AD] rounded-full"></div>
+            <div class="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+            <div class="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+        </div>
     </div>
+</div>
 
-    <div class="bg-[#EEEEEE] py-12 px-52">
-        <div class="bg-[#3652AD] container mx-auto rounded-3xl">
-            <div class="py-8 px-40 text-center">
-                <h1 class="text-3xl font-semibold text-[#FAFAFA] mb-5">Menuju <span class="text-[#FFD700]">kesuksesan</span> yang lebih tinggi, Bersama Alatan Academy</h1>
-                <button
-                    class="bg-[#FAFAFA] text-[#3652AD] p-2 rounded-lg border font-semibold text-base">Hubungi
-                    Kami</button>
-            </div>
+<div class="bg-[#EEEEEE] py-12 px-52">
+    <div class="bg-[#3652AD] container mx-auto rounded-3xl">
+        <div class="py-8 px-40 text-center">
+            <h1 class="text-3xl font-semibold text-[#FAFAFA] mb-5">Menuju <span class="text-[#FFD700]">kesuksesan</span> yang lebih tinggi, Bersama Alatan Academy</h1>
+            <button
+                class="bg-[#FAFAFA] text-[#3652AD] p-2 rounded-lg border font-semibold text-base">Hubungi
+                Kami</button>
         </div>
     </div>
+</div>
 </x-layouts.base>
