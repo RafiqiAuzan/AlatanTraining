@@ -20,15 +20,9 @@
         @vite('resources/css/app.css')
 </head>
 
-{{-- Section Navbar --}}
-<x-atoms.navbar></x-atoms.navbar>
-
 {{-- Section Body --}}
 <div id="main" class="">
     {{ $slot }}
 </div>
-
-{{-- Footer --}}
-<x-atoms.footer></x-atoms.footer>
 
 </html>

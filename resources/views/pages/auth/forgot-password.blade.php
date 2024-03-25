@@ -1,3 +1,3 @@
-<x-layouts.base title="Alatan Indonesia">
+<x-layouts.auth title="Alatan Indonesia">
     
-</x-layouts.base>
+</x-layouts.auth>
