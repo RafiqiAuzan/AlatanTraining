@@ -3,7 +3,7 @@
 {{-- Promo Card --}}
 <Section>
     <div class="bg-[#F3F3F3] pt-14">
-        <div class="bg-[#3652AD] p-28 grid gap-4 container mx-auto">
+        <div class="bg-[#3652AD] p-20 grid gap-4 mx-auto">
             <h1 class=" text-white text-center font-semibold text-6xl">About us</h1>
             <h2 class=" text-white text-center text-xl">Home / About Us</h2>
         </div>
@@ -12,11 +12,11 @@
 
 {{-- About us --}}
 <Section>
-    <div class="px-12">
-        <div class="py-10">
+    <div class="bg-[#F3F3F3] px-12">
+        <div class="container mx-auto py-4">
             <div class="">
-                <p class="text-base text-blue-500">ABOUT US</p>
-                <p class="text-3xl font-bold max-w-96">Upgrade your softskill and hardskill in digital world</p>
+                <p class="text-base text-[#3652AD]">ABOUT US</p>
+                <h1 class="text-3xl font-bold max-w-96 text-[#001C30]">Upgrade your softskill and hardskill in digital world</h1>
             </div>
             <div class="flex gap-3 justify-center">
                 <!-- Left -->
@@ -44,25 +44,25 @@
 
 {{-- the Founder --}}
 <Section>
-    <div class="px-12">
-        <div class="grid grid-cols-2 gap-3 py-10 justify-between">
+    <div class="bg-[#EEEEEE] px-12">
+        <div class="container mx-auto grid grid-cols-2 gap-3 py-4 justify-between">
             <!-- Left -->
             <div class="grid gap-3">
-                <p class="text-base text-blue-500">THE FOUNDER</p>
-                <p class="text-3xl font-bold max-w-96">Dear Valued Customers,</p>
-                <p>Welcome to Alatan Training!</p>
-                <p>We have covered many special events such as fireworks, fairs, parades,
+                <p class="text-base text-[#3652AD]">THE FOUNDER</p>
+                <h1 class="text-3xl text-[#001C30] font-bold max-w-96">Dear Valued Customers,</h1>
+                <p class="text-xl font-semibold text-[#001C30]">Welcome to Alatan Training!</p>
+                <p class="text-[#52616B]">We have covered many special events such as fireworks, fairs, parades,
                     races, walks, awards ceremonies, fashion shows, sporting events, and even a
                     memorial service.
                     </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate
+                <p class="text-[#52616B]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate
                     vestibulum rhoncus, dolor eget viverra pretium, dolor tellus aliquet nunc,
                     vitae ultricies erat elit eu lacus. Vestibulum non justo consectetur, cursus
                     ante, tincidunt sapien. Nulla quis diam sit amet turpis interd enim. Vivamus
                     faucibus ex sed nibh egestas elementum. Mauris et bibendum dui. Aenean
                     consequat pulvinar luctus. Suspendisse consectetur tristique tortor</p>
-                <p>Harmada Sibuea</p>
-                <p>Founder, Alatan Indonesia</p>
+                <p class="text-xl font-semibold text-[#3652AD]">Harmada Sibuea</p>
+                <p class="font-semibold text-[#52616B]">Founder, Alatan Indonesia</p>
             </div>
             <!-- Right -->
             <div class="">
@@ -74,23 +74,23 @@
 
 {{-- Vision & Mission --}}
 <Section>
-    <div class="px-12">
-        <div class="grid grid-cols-2 gap-5 py-10 justify-between">
+    <div class="bg-[#F3F3F3] px-12 py-4">
+        <div class="container mx-auto grid grid-cols-2 gap-5 justify-between">
             <!-- Left -->
             <div class="grid gap-3">
-                <p class="text-base text-blue-500">VISION & MISSION</p>
-                <p class="text-3xl font-bold max-w-96">Building the Future
+                <p class="text-base text-[#3652AD]">VISION & MISSION</p>
+                <p class="text-3xl font-bold max-w-96 text-[#001C30]">Building the Future
                     with Good Skills</p>
                 <img class="mx-auto" src="{{ URL::to('/img/aboutus/Vision.svg') }}">
-                <div class="flex gap-1 my-auto">
-                    <img src="img/icon/pin.svg" class="size-[19px]" />
-                    <p class="text-sm">Our Vision</p>
+                <div class="flex gap-2 my-auto">
+                    <i class="text-[#3652AD] my-auto fa-solid fa-thumbtack text-lg"></i>
+                    <p class="text-xl font-semibold">Our Vision</p>
                 </div>
-                <p>To be a leading provider of innovative smart home solutions,
+                <p class="text-[#52616B] text-base">To be a leading provider of innovative smart home solutions,
                     revolutionizing the way people interact with their living spaces and
                     enhancing their overall quality of life.
                     </p>
-                <p>At mattis tincidunt ac scelerisque fermentum ultricies sit morbi.
+                <p class="text-[#52616B] text-base">At mattis tincidunt ac scelerisque fermentum ultricies sit morbi.
                     Interdum pellentesque venenatis lectus tincidunt. Libero senectus
                     ullamcorper tellus arcu sed. In interdum mauris et hendrerit scelerisque
                     suspendisse morbi ultrices natoque. Et tempor sit feugiat nisi felis. Leo
@@ -98,30 +98,30 @@
             </div>
             <!-- Right -->
             <div class="grid gap-3">
-                <div class="flex gap-1 my-auto">
-                    <img src="img/icon/pin.svg" class="size-[19px]" />
-                    <p class="text-sm">Our Mission</p>
+                <div class="flex gap-2 my-auto">
+                    <i class="text-[#3652AD] my-auto fa-solid fa-thumbtack text-lg"></i>
+                    <p class="text-xl font-semibold">Our Vision</p>
                 </div>
                 <div class="px-5 grid gap-3">
                     <!-- Mission 1 -->
                     <div class="">
-                        <p class="text-base text-[#001C30]">01. Empowerment</p>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
-                        <p class="text-base text-[#001C30]">Penatibus congue ipsum condimentum ac dignissim non mi
+                        <p class="text-base text-[#001C30] font-semibold">01. Empowerment</p>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <p class="text-base text-[#52616B]">Penatibus congue ipsum condimentum ac dignissim non mi
                             auctor. Nulla id id non enim venenatis nibh.</p>
                     </div>
                     <!-- Mission 1 -->
                     <div class="">
-                        <p class="text-base text-[#001C30]">01. Empowerment</p>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
-                        <p class="text-base text-[#001C30]">Penatibus congue ipsum condimentum ac dignissim non mi
+                        <p class="text-base text-[#001C30] font-semibold">02. Integration</p>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <p class="text-base text-[#52616B]">Penatibus congue ipsum condimentum ac dignissim non mi
                             auctor. Nulla id id non enim venenatis nibh.</p>
                     </div>
                     <!-- Mission 1 -->
                     <div class="">
-                        <p class="text-base text-[#001C30]">01. Empowerment</p>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
-                        <p class="text-base text-[#001C30]">Penatibus congue ipsum condimentum ac dignissim non mi
+                        <p class="text-base text-[#001C30] font-semibold">03. Customization</p>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <p class="text-base text-[#52616B]">Penatibus congue ipsum condimentum ac dignissim non mi
                             auctor. Nulla id id non enim venenatis nibh.</p>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
 
 {{-- Teams --}}
 <Section>
-    <div class="bg-[#F3F3F3] px-12 pt-14">
+    <div class="bg-[#EEEEEE] py-4 px-12">
         <div class="container mx-auto">
             <h2 class="text-center text-[#3652AD] text-base">OUR TEAM</h2>
             <h1 class="text-center text-[#001C30] text-2xl font-bold mb-5">Meet Our Team of
@@ -144,7 +144,7 @@
                     <img src="dummy_img/staff/pict1.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -158,7 +158,7 @@
                     <img src="dummy_img/staff/pict2.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -172,7 +172,7 @@
                     <img src="dummy_img/staff/pict3.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -186,7 +186,7 @@
                     <img src="dummy_img/staff/pict4.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -200,7 +200,7 @@
                     <img src="dummy_img/staff/pict5.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -214,7 +214,7 @@
                     <img src="dummy_img/staff/pict6.png" class="rounded-2xl mx-auto" />
                     <div class="p-5">
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
                         <div class="flex justify-center gap-2 mt-2">
                             <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
@@ -230,28 +230,28 @@
 
 {{-- About us --}}
 <Section>
-    <div class="p-12">
+    <div class="bg-[#F3F3F3] p-12">
         <div class="flex gap-10 justify-center">
             <!-- Left -->
             <div class="grid gap-3 max-w-[500px] my-auto">
-                <p class="text-base text-blue-500">YOUR BENEFITS</p>
-                <p class="text-3xl font-bold max-w-96">Benefits of Learning
-                    with Alatan</p>
-                <p>Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+                <p class="text-base text-[#3652AD]">YOUR BENEFITS</p>
+                <h1 class="text-3xl text-[#001C30] font-bold max-w-96">Benefits of Learning
+                    with Alatan</h1>
+                <p class="text-[#52616B]">Egestas faucibus nisl et ultricies. Tempus lectus condimentum
                     tristique mauris id vitae. Id pulvinar a eget vitae pellentesque
                     ridiculus platea. Vulputate cursus.</p>
                 <div class="grid gap-2">
                     <div class="flex gap-1 my-auto">
-                        <img src="img/icon/checkmarkcircle.svg" class="size-[19px]" />
-                        <p class="text-sm">Flexible Learning</p>
+                        <i class="my-auto text-[#3652AD] fa-solid fa-circle-check"></i>
+                        <p class="text-sm text-[#52616B]">Flexible Learning</p>
                     </div>
                     <div class="flex gap-1 my-auto">
-                        <img src="img/icon/checkmarkcircle.svg" class="size-[19px]" />
-                        <p class="text-sm">Quality Instruction</p>
+                        <i class="my-auto text-[#3652AD] fa-solid fa-circle-check"></i>
+                        <p class="text-sm text-[#52616B]">Quality Instruction</p>
                     </div>
                     <div class="flex gap-1 my-auto">
-                        <img src="img/icon/checkmarkcircle.svg" class="size-[19px]" />
-                        <p class="text-sm">Cost Effective</p>
+                        <i class="my-auto text-[#3652AD] fa-solid fa-circle-check"></i>
+                        <p class="text-sm text-[#52616B]">Cost Effective</p>
                     </div>
                 </div>
             </div>

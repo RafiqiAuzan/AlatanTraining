@@ -1,4 +1,4 @@
-<nav class="fixed w-full bg-[#F3F3F3] backdrop-blur bg-opacity-60 border-b-2 border-[#1E2022]/60">
+<nav class="fixed w-full bg-[#F3F3F3] backdrop-blur bg-opacity-60 border-b-2 border-[#1E2022]/60 z-50">
     <div class="container mx-auto flex justify-between lg:px-12">
         <a href="/" class="">
             <img src="img/logo/logo_alatan_biru.svg" class="h-14">
@@ -9,12 +9,12 @@
                 </a>
                 </div> --}}
             <div class="my-auto">
-            <button type="button"
+            <a href="/login" type="button"
                 class="text-[#001C30] border-2 border-[#001C30] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1 text-center">
-                Masuk</button>
-                <button type="button"
+                Masuk</a>
+                <a href="/register" type="button"
                 class="text-[#FAFAFA] border-2 border-[#3652AD] bg-[#3652AD] hover:bg-[#3652AD] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1 text-center">
-                Daftar</button>
+                Daftar</a>
             </div>
             <button data-collapse-toggle="navbar-sticky" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
@@ -31,23 +31,23 @@
             <ul
                 class="flex flex-col p-4 md:p-0 mt-4 font-medium border md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                 <li>
-                    <a href="#"
-                        class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                    <a href="/" 
+                        class="{{ Request::is('/') ? 'text-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 rounded md:bg-transparent md:p-0"
                         aria-current="page">Home</a>
                 </li>
                 <li>
                     <a href="/publictraining"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Public
+                        class="{{ Request::is('publictraining') ? 'text-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 rounded md:bg-transparent md:p-0" aria-current="page">Public
                         Training</a>
                 </li>
                 <li>
                     <a href="#"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">In-house
+                        class="{{ Request::is('#') ? 'text-[#FAFAFA] bg-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">In-house
                         Training</a>
                 </li>
                 <li>
                     <a href="/aboutus"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">About
+                    class="{{ Request::is('aboutus') ? 'text-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 rounded md:bg-transparent md:p-0">About
                         us</a>
                 </li>
             </ul>

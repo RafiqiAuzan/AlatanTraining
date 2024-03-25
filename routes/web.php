@@ -28,3 +28,11 @@ Route::get('/productdetail', function () {
 Route::get('/aboutus', function () {
     return view('pages.aboutus');
 });
+
+Route::get('/login', function () {
+    return view('pages.auth.login');
+});
+
+Route::get('/register', function () {
+    return view('pages.auth.register');
+});

@@ -4,7 +4,7 @@
 <Section>
     <div id="hero" class=" bg-[#F3F3F3]">
         <div class="container mx-auto">
-            <div class="flex xl:p-40 2xl:px-72 2xl:pb-32 justify-between">
+            <div class="flex xl:p-36 2xl:px-72 justify-between">
                 <!-- Left -->
                 <div class="max-w-[500px] my-auto">
                     <h1 class="text-6xl leading-none font-bold text-[#001C30]">Alatan Academy</h1>
@@ -33,7 +33,7 @@
 
 {{-- Benefit --}}
 <Section>
-    <div class="bg-[#F3F3F3] px-12 pb-12">
+    <div class="bg-[#F3F3F3] px-12 pb-4">
         <div class="bg-[#3652AD] container mx-auto rounded">
             <div class="grid grid-cols-3 p-10">
                 <div class="text-center">
@@ -61,9 +61,9 @@
 
 {{-- Product --}}
 <section>
-    <div class="bg-[#EEEEEE] px-12 py-6">
+    <div class="bg-[#EEEEEE] px-12 py-4">
         <div class="container mx-auto">
-            <h1 class="text-center text-4xl font-bold text-[#001C30] mb-6">Our Public Training Program</h1>
+            <h1 class="text-center text-3xl font-bold text-[#001C30] mb-6">Our Public Training Program</h1>
             <div class="grid gap-10 grid-cols-3 rounded-xl">
                 {{-- Card --}}
                 <div class="bg-[#F7F7F7] rounded-2xl">
@@ -75,13 +75,13 @@
                             <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -95,13 +95,13 @@
                             <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -115,13 +115,13 @@
                             <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
                             <p class="text-sm text-[#001C30]">29 February 2024</p>
                         </div>
-                        <hr class="h-0.5 bg-[#001C30] opacity-50 my-2" />
+                        <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <div  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
-                                <a href="/productdetail" class="text-[#FAFAFA] text-xs" href="">Lihat Detail</a>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
 </section>
 
 {{-- Testimoni --}}
-<div class="bg-[#F3F3F3] p-12">
+<div class="bg-[#F3F3F3] px-12 p-4">
     <div class="container mx-auto">
         <h1 class="text-2xl font-bold mb-1">Testimonials</h1>
         <p class=" text-base mb-5 max-w-[650px]">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
@@ -233,9 +233,10 @@
     </div>
 </div>
 
-<div class="bg-[#EEEEEE] py-12 px-52">
-    <div class="bg-[#3652AD] container mx-auto rounded-3xl">
-        <div class="py-8 px-40 text-center">
+{{-- Hubungi Kami --}}
+<div class="bg-[#EEEEEE] py-6">
+    <div class="bg-[#3652AD] w-[800px] container mx-auto rounded-xl">
+        <div class="py-8 px-32 text-center">
             <h1 class="text-3xl font-semibold text-[#FAFAFA] mb-5">Menuju <span class="text-[#FFD700]">kesuksesan</span> yang lebih tinggi, Bersama Alatan Academy</h1>
             <button
                 class="bg-[#FAFAFA] text-[#3652AD] p-2 rounded-lg border font-semibold text-base">Hubungi
@@ -243,4 +244,5 @@
         </div>
     </div>
 </div>
+
 </x-layouts.base>
