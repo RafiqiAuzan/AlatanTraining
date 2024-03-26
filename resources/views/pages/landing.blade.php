@@ -31,9 +31,18 @@
     </div>
 </Section>
 
+{{-- Promo Card --}}
+<Section>
+    <div class="bg-[#F3F3F3]">
+        <div class="bg-[#3652AD] mx-auto">
+            <h1 class=" text-white text-center text-6xl p-28">PROMO CARD</h1>
+        </div>
+    </div>
+</Section>
+
 {{-- Benefit --}}
 <Section>
-    <div class="bg-[#F3F3F3] px-12 pb-4">
+    <div class="bg-[#F3F3F3] px-12 py-10">
         <div class="bg-[#3652AD] container mx-auto rounded">
             <div class="grid grid-cols-3 p-10">
                 <div class="text-center">
@@ -108,6 +117,66 @@
                 {{-- Card --}}
                 <div class="bg-[#F7F7F7] rounded-2xl">
                     <img src="dummy_img/ft3.png" class="rounded-t-2xl w-full object-cover" />
+                    <div class="p-5">
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
+                            UX Design Training</h1>
+                        <div class="flex gap-1">
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
+                        </div>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <div class="flex justify-between">
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{-- Card --}}
+                <div class="bg-[#F7F7F7] rounded-2xl">
+                    <img src="dummy_img/ft4.png" class="rounded-t-2xl w-full object-cover" />
+                    <div class="p-5">
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
+                            UX Design Training</h1>
+                        <div class="flex gap-1">
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
+                        </div>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <div class="flex justify-between">
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{-- Card --}}
+                <div class="bg-[#F7F7F7] rounded-2xl">
+                    <img src="dummy_img/ft5.png" class="rounded-t-2xl w-full object-cover" />
+                    <div class="p-5">
+                        <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
+                            UX Design Training</h1>
+                        <div class="flex gap-1">
+                            <i class="fa-solid fa-calendar-days text-[#3652AD] my-auto"></i>
+                            <p class="text-sm text-[#001C30]">29 February 2024</p>
+                        </div>
+                        <hr class="h-0.5 bg-[#818080] my-2" />
+                        <div class="flex justify-between">
+                            <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
+                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                                <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
+                                <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{-- Card --}}
+                <div class="bg-[#F7F7F7] rounded-2xl">
+                    <img src="dummy_img/ft6.png" class="rounded-t-2xl w-full object-cover" />
                     <div class="p-5">
                         <h1 class="text-xl mb-2 text-[#001C30] font-bold">Learn Figma Essential UI/
                             UX Design Training</h1>
