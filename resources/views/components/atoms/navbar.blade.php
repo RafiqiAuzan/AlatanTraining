@@ -10,10 +10,10 @@
                 </div> --}}
             <div class="my-auto">
             <a href="/login" type="button"
-                class="text-[#001C30] border-2 border-[#001C30] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1 text-center">
+                class="text-[#001C30] border-2 border-[#001C30] font-medium rounded-lg text-sm px-3 py-1 text-center">
                 Masuk</a>
                 <a href="/register" type="button"
-                class="text-[#FAFAFA] border-2 border-[#3652AD] bg-[#3652AD] hover:bg-[#3652AD] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1 text-center">
+                class="text-[#FAFAFA] border-2 border-[#3652AD] bg-[#3652AD] hover:bg-[#3652AD] font-medium rounded-lg text-sm px-3 py-1 text-center">
                 Daftar</a>
             </div>
             <button data-collapse-toggle="navbar-sticky" type="button"
@@ -36,8 +36,8 @@
                         aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="/publictraining"
-                        class="{{ Request::is('publictraining') ? 'text-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 rounded md:bg-transparent md:p-0" aria-current="page">Public
+                    <a href="/public-training"
+                        class="{{ Request::is('public-training') ? 'text-[#3652AD]' : 'text-[#001C30]' }} block py-2 px-3 rounded md:bg-transparent md:p-0" aria-current="page">Public
                         Training</a>
                 </li>
                 <li>

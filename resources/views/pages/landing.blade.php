@@ -33,16 +33,16 @@
 
 {{-- Promo Card --}}
 <Section>
-    <div class="bg-[#F3F3F3]">
-        <div class="bg-[#3652AD] mx-auto">
-            <h1 class=" text-white text-center text-6xl p-28">PROMO CARD</h1>
+    <div class="bg-[#F3F3F3] px-12 pb-4">
+        <div class=" container mx-auto">
+            <img src="img/promo/discount.png" class=" rounded-xl w-full h-[300px] bg-cover" />
         </div>
     </div>
 </Section>
 
 {{-- Benefit --}}
 <Section>
-    <div class="bg-[#F3F3F3] px-12 py-10">
+    <div class="bg-[#EEEEEE] px-12 py-4">
         <div class="bg-[#3652AD] container mx-auto rounded">
             <div class="grid grid-cols-3 p-10">
                 <div class="text-center">
@@ -70,7 +70,7 @@
 
 {{-- Product --}}
 <section>
-    <div class="bg-[#EEEEEE] px-12 py-4">
+    <div class="bg-[#F3F3F3] px-12 py-4">
         <div class="container mx-auto">
             <h1 class="text-center text-3xl font-bold text-[#001C30] mb-6">Our Public Training Program</h1>
             <div class="grid gap-10 grid-cols-3 rounded-xl">
@@ -87,7 +87,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>
@@ -107,7 +107,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>
@@ -127,7 +127,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>
@@ -147,7 +147,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>
@@ -167,7 +167,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>
@@ -187,7 +187,7 @@
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <div class="flex justify-between">
                             <p class="text-xl text-[#001C30] font-bold ">Rp. 299.000</p>
-                            <a href="/productdetail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
+                            <a href="/product-detail"  class="flex bg-[#3652AD] p-2 gap-1 rounded-lg">
                                 <span class="text-[#FAFAFA] text-xs">Lihat Detail</span>
                                 <i class="my-auto text-[#FAFAFA] fa-xs fa-solid fa-arrow-right"></i>
                             </a>

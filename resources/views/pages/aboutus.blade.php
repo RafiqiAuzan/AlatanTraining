@@ -146,10 +146,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -160,10 +166,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -174,10 +186,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -188,10 +206,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -202,10 +226,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -216,10 +246,16 @@
                         <h1 class="text-xl text-center mb-2 text-[#001C30] font-bold">Bradford Keithley</h1>
                         <hr class="h-0.5 bg-[#818080] my-2" />
                         <p class="text-base text-center text-[#001C30]">Chief Operating Officer</p>
-                        <div class="flex justify-center gap-2 mt-2">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/twitter.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/facebook.svg') }}">
-                            <img class="my-auto" src="{{ URL::to('/img/icon/instagram.svg') }}">
+                        <div class="flex justify-center gap-3 mt-2">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook my-auto text-[#3652AD] text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram my-auto text-[#3652AD] text-xl"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
